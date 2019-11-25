@@ -559,6 +559,20 @@
             </summary>
             <param name="accountService"></param>
         </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.EditPassword(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.EditApiBudget(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            修改本地预算
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetEmployee(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
             <summary>
             修改内部员工列表
@@ -666,6 +680,25 @@
             修改单条记录(整体修改)
             </summary>
             <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OA.WebApi.Controllers.v1.TxoooSEM35.AccountApiAuthAgentController">
+            <summary>
+            Mcc账户
+            </summary>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.AccountApiAuthAgentController.#ctor(OA.Core.Services.TxoooSEMReport35ServiceBase{OA.Core.Entitys.TxoooSEM35.AccountApiAuthAgentInfo},OA.Core.Services.TxoooSEM35.AccountApiAuthAgentService)">
+            <summary>
+            
+            </summary>
+            <param name="txoooSEMReport35ServiceBase"></param>
+            <param name="accountApiAuthAgentServiceBase"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.AccountApiAuthAgentController.GetPlanDayReport(OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters)">
+            <summary>
+            获取Mcc账户
+            </summary>
+            <param name="parameters"></param>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.#ctor(OA.Core.Services.TxoooSEM35.PlanService)">

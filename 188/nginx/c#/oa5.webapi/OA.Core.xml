@@ -5564,56 +5564,6 @@
             
             </summary>
         </member>
-        <member name="T:OA.Core.Entitys.TxoooSEM35.PlanInfo">
-            <summary>
-            Account 实体
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.AccountId">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanId">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanName">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.ApiCampaignId">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.ApiCampaignName">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.ApiBudget">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.SyncTime">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.ApiPause">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.ApiCampaignType">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo">
             <summary>
             获取账户列表 实体
@@ -5729,6 +5679,16 @@
             子链开关
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.ApiBudgetType">
+            <summary>
+            预算类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.ApiBudgetTypeName">
+            <summary>
+            预算类型：1、日预算，2、周预算，无预算
+            </summary>
+        </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.ApiBudget">
             <summary>
             预算(消费限额)
@@ -5769,11 +5729,6 @@
             无线优惠资金包金额
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.ApiBudgetType">
-            <summary>
-            预算类型
-            </summary>
-        </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.ApiUserId">
             <summary>
             用户id
@@ -5797,6 +5752,21 @@
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.ApiValidFlows">
             <summary>
             
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.AgentId">
+            <summary>
+            MCCID
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.Username">
+            <summary>
+            MCC账户
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.LoginPassword">
+            <summary>
+            登录密码
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.SyncTime">
@@ -5840,6 +5810,66 @@
             </summary>
         </member>
         <member name="F:OA.Core.Entitys.TxoooSEM35.CrmClassEnum.NexId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo">
+            <summary>
+            Account 实体
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.Status">
+            <summary>
+            API是否开始：0、暂停，1、启用，2、异常停止，其他错误状态
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.StatusName">
+            <summary>
+            API是否开始：0、暂停，1、启用，2、异常停止，其他错误状态
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.AccountId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiCampaignId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiCampaignName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiBudget">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.SyncTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiPause">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiCampaignType">
             <summary>
             
             </summary>
@@ -7858,6 +7888,16 @@
             姓名
             </summary>
         </member>
+        <member name="T:OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters.AgentId">
+            <summary>
+            MCCID
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters">
             <summary>
             
@@ -7918,6 +7958,31 @@
             服务标识（所属平台) TxoooCRM2013.CRM_Class parent_id = 20025
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.ApiBudgetType">
+            <summary>
+            预算类型：1、日预算，2、周预算，无预算
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.ApiBudget">
+            <summary>
+            预算(消费限额)
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.LoginPassword">
+            <summary>
+            登录密码
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.ApiRegDomain">
+            <summary>
+            推广域名（账户注册域名）
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.AgentId">
+            <summary>
+            MCCID
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters">
             <summary>
             
@@ -7925,12 +7990,17 @@
         </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.AccountId">
             <summary>
-            
+            账户ＩＤ
             </summary>
         </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanName">
             <summary>
-            
+            本地计划名
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.CampaignName">
+            <summary>
+            api计划名
             </summary>
         </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters">
@@ -7994,6 +8064,11 @@
             </summary>
         </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.PlanDayParameters.CampaignName">
+            <summary>
+            计划名
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.PlanDayParameters.ApiCampaignId">
             <summary>
             计划名
             </summary>
@@ -9303,6 +9378,24 @@
             </summary>
             <param name="repositoryBase"></param>
         </member>
+        <member name="T:OA.Core.Services.TxoooSEM35.AccountApiAuthAgentService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountApiAuthAgentService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.AccountApiAuthAgentInfo})">
+            <summary>
+            
+            </summary>
+            <param name="accountApiAuthAgentBase"></param>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountApiAuthAgentService.GetAccountApiAuthAgent(OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters)">
+            <summary>
+            获得MCC账户信息
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
         <member name="T:OA.Core.Services.TxoooSEM35.AccountService">
             <summary>
             
@@ -9344,7 +9437,7 @@
             
             </summary>
         </member>
-        <member name="M:OA.Core.Services.TxoooSEM35.PlanService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.PlanInfo})">
+        <member name="M:OA.Core.Services.TxoooSEM35.PlanService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo})">
             <summary>
             
             </summary>
