@@ -5564,6 +5564,16 @@
             
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.HandleStatus">
+            <summary>
+            异常处理状态（1待处理，2已标记，3已解除）
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.TagId">
+            <summary>
+            自定可以标签id
+            </summary>
+        </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo">
             <summary>
             获取账户列表 实体
@@ -5819,7 +5829,7 @@
             Account 实体
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.Status">
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiStatus">
             <summary>
             API是否开始：0、暂停，1、启用，2、异常停止，其他错误状态
             </summary>
@@ -5830,6 +5840,26 @@
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.AccountId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.MediaId">
+            <summary>
+            媒体id   TxoooCRM2013.CRM_Class parent_id = 21446
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.MediaName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.UsageId">
+            <summary>
+            内部用途（账户用途） TxoooCRM2013.CRM_Class parent_id = 20337
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.UsageName">
             <summary>
             
             </summary>
@@ -5870,6 +5900,21 @@
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiCampaignType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.EmployeeId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.EmployeeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.Remark">
             <summary>
             
             </summary>
@@ -7913,6 +7958,11 @@
             
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.AccountIds">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.AccountName">
             <summary>
             
@@ -7983,6 +8033,36 @@
             MCCID
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.RunStatus">
+            <summary>
+            运行状态
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.StartTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.EndTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.TagId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.HandleStatus">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters">
             <summary>
             
@@ -7993,6 +8073,16 @@
             账户ＩＤ
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.MediaId">
+            <summary>
+            账户分类  TxoooCRM2013.CRM_Class parent_id = 21446
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.UsageId">
+            <summary>
+            账户用途 TxoooCRM2013.CRM_Class parent_id = 20337
+            </summary>
+        </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanName">
             <summary>
             本地计划名
@@ -8001,6 +8091,27 @@
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.CampaignName">
             <summary>
             api计划名
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanId">
+            <summary>
+            计划ID
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.CampaignId">
+            <summary>
+            推广apiId
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.ApiBudget" -->
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.EmployeeId">
+            <summary>
+            媒介人员
             </summary>
         </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters">
@@ -9437,11 +9548,12 @@
             
             </summary>
         </member>
-        <member name="M:OA.Core.Services.TxoooSEM35.PlanService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo})">
+        <member name="M:OA.Core.Services.TxoooSEM35.PlanService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Services.TxoooOfficeServiceBase{OA.Core.Entitys.TxoooOffice.ViewV4OAZDLEmployeeInfo})">
             <summary>
             
             </summary>
             <param name="repositoryBase"></param>
+            <param name="txoooCRM2013ServiceBase"></param>
         </member>
         <member name="M:OA.Core.Services.TxoooSEM35.PlanService.GetPlanList(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>

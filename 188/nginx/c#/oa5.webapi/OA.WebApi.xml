@@ -539,12 +539,19 @@
             <param name="employeeParameters"></param>
             <returns></returns>
         </member>
-        <member name="M:OA.WebApi.Controllers.v1.SummaryData.ErrorAccountApplyController.#ctor(OA.Core.Services.TxoooSEM35ServiceBase{OA.Core.Entitys.TxoooSEM35.ErrorAccountApplyInfo},OA.Core.Services.TxoooSEM35.AccountService)">
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.ErrorAccountApplyController.#ctor(OA.Core.Services.TxoooSEM35ServiceBase{OA.Core.Entitys.TxoooSEM35.ErrorAccountApplyInfo},OA.Core.Services.TxoooSEM35.AccountService,Microsoft.Extensions.Options.IOptions{OA.WebApi.Helper.JwtSettings})">
             <summary>
             
             </summary>
             <param name="txoooSEM35ServiceBase"></param>
             <param name="accountService"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.ErrorAccountApplyController.InsertApply(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            申请入库
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.ErrorAccountController.#ctor(OA.Core.Services.TxoooSEM35ServiceBase{OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo},OA.Core.Services.TxoooSEM35.AccountService)">
             <summary>
@@ -558,6 +565,13 @@
             
             </summary>
             <param name="accountService"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.EditStatus(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            修改API状态
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.EditPassword(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
             <summary>
@@ -583,6 +597,41 @@
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetAccountMasterOut(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
             <summary>
             修改外部员工列表
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetServiceId(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            批量修改账户类型（业务团队）
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetMCC(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            批量修改Mcc
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetTeamId(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            批量修改隶属部门
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetUsageId(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            批量修改账户用途
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetMediaProduct(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            批量修改账户渠道
             </summary>
             <param name="parameters"></param>
             <returns></returns>
@@ -706,6 +755,27 @@
             
              </summary>
              <param name="planService"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditApiBudget(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            修改本地预算
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.SetEmployee(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            修改内部员工列表
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditRemark(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            修改备注
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
         </member>
         <member name="T:OA.WebApi.Controllers.v1.TxoooSEMReport35.IdeaDayReportController">
             <summary>
