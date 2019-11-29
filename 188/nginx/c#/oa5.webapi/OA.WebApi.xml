@@ -636,6 +636,20 @@
             <param name="parameters"></param>
             <returns></returns>
         </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetCheckUrl(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            批量检测URL
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetAutoSynStruct(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            批量Url索引
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountDayReportController.#ctor(OA.Core.Services.TxoooSEMReport35ServiceBase{OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo},OA.Core.Services.TxoooSEM35.AccountDayService)">
             <summary>
             
@@ -736,16 +750,30 @@
             Mcc账户
             </summary>
         </member>
-        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.AccountApiAuthAgentController.#ctor(OA.Core.Services.TxoooSEMReport35ServiceBase{OA.Core.Entitys.TxoooSEM35.AccountApiAuthAgentInfo},OA.Core.Services.TxoooSEM35.AccountApiAuthAgentService)">
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.AccountApiAuthAgentController.#ctor(OA.Core.Services.TxoooSEM35ServiceBase{OA.Core.Entitys.TxoooSEM35.AccountApiAuthAgentInfo},OA.Core.Services.TxoooSEM35.AccountApiAuthAgentService)">
             <summary>
             
             </summary>
-            <param name="txoooSEMReport35ServiceBase"></param>
+            <param name="txoooSEM35ServiceBase"></param>
             <param name="accountApiAuthAgentServiceBase"></param>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.AccountApiAuthAgentController.GetPlanDayReport(OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters)">
             <summary>
             获取Mcc账户
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.AccountApiAuthAgentController.AddMccZh(OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters)">
+            <summary>
+            添加mcc账户
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.AccountApiAuthAgentController.EditMccZh(OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters)">
+            <summary>
+            修改mcc账户
             </summary>
             <param name="parameters"></param>
             <returns></returns>

@@ -5784,6 +5784,16 @@
             最后一次同步时间
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.CheckUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.AutoSynStruct">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.CrmClassEnum">
             <summary>
             各种账户分类
@@ -7943,6 +7953,46 @@
             MCCID
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters.Username">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters.Token">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters.AppId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters.AppKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters.MccAk">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters.MccSk">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters.BceUser">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters">
             <summary>
             
@@ -8059,6 +8109,16 @@
             </summary>
         </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.HandleStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.CheckUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.AutoSynStruct">
             <summary>
             
             </summary>
