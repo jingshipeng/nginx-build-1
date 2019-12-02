@@ -805,6 +805,27 @@
             <param name="parameters"></param>
             <returns></returns>
         </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditApiCampaignId(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            修改api计划ID
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditBrandId(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            修改品牌编号
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanXgType(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            修改计费类型
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
         <member name="T:OA.WebApi.Controllers.v1.TxoooSEMReport35.IdeaDayReportController">
             <summary>
             创意日报表

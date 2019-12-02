@@ -5544,14 +5544,24 @@
             
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.ExceptionMsg">
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.AccountName">
             <summary>
-            错误描述
+            账户名称
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.StackTrace">
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.UsageId">
             <summary>
-            错误堆栈
+            内部用途（账户用途） TxoooCRM2013.CRM_Class parent_id = 20337
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.MediaProduct">
+            <summary>
+            媒体产品id （账户渠道） TxoooCRM2013.CRM_Class parent_id = 22643
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.UsageName">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.BusinessType">
@@ -5572,6 +5582,16 @@
         <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.TagId">
             <summary>
             自定可以标签id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.ExceptionMsg">
+            <summary>
+            错误描述
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.StackTrace">
+            <summary>
+            错误堆栈
             </summary>
         </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo">
@@ -5927,6 +5947,16 @@
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.Remark">
             <summary>
             
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.BrandId">
+            <summary>
+            品牌ID
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanXgType">
+            <summary>
+            计费类型
             </summary>
         </member>
         <member name="T:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo">
@@ -8172,6 +8202,21 @@
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.EmployeeId">
             <summary>
             媒介人员
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.ApiCampaignId">
+            <summary>
+            api计划ID
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.BrandId">
+            <summary>
+            品牌ID
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanXgType">
+            <summary>
+            计费类型
             </summary>
         </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters">
