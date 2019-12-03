@@ -5959,12 +5959,62 @@
             计费类型
             </summary>
         </member>
+        <member name="T:OA.Core.Entitys.TxoooSEMLog.AccountLogInfo">
+            <summary>
+            日志列表 实体
+            </summary>
+        </member>
+        <member name="T:OA.Core.Entitys.TxoooSEMLog.PlanLogInfo">
+            <summary>
+            日志列表 实体
+            </summary>
+        </member>
+        <member name="T:OA.Core.Entitys.TxoooSEMLog.PublicLogInfo">
+            <summary>
+            日志列表 实体
+            </summary>    
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMLog.PublicLogInfo.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMLog.PublicLogInfo.OperationId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMLog.PublicLogInfo.OperationMsg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMLog.PublicLogInfo.OperationIp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMLog.PublicLogInfo.EmployeeId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMLog.PublicLogInfo.EmployeeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMLog.PublicLogInfo.CreateTime">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo">
             <summary>
             账户日报表 实体
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.Id">
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.action">
             <summary>
             
             </summary>
@@ -6207,6 +6257,11 @@
         <member name="T:OA.Core.Entitys.TxoooSEMReport35.PlanDayInfo">
             <summary>
             PlanDay 实体
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.PlanDayInfo.action">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEMReport35.PlanDayInfo.Id">
@@ -8264,6 +8319,11 @@
             
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.IdeaDayParameters.CampaignId">
+            <summary>
+            计划ID
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.PlanDayParameters">
             <summary>
             
@@ -8339,6 +8399,11 @@
             
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.QueryDayParameters.CampaignId">
+            <summary>
+            api计划ID
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.UnitDayParameters">
             <summary>
             
@@ -8364,6 +8429,21 @@
             单元名称
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.UnitDayParameters.PlanId">
+            <summary>
+            计划ID
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.UnitDayParameters.CampaignId">
+            <summary>
+            api计划ID
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.UnitDayParameters.CampaignName">
+            <summary>
+            计划名
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.WordDayParameters">
             <summary>
             
@@ -8387,6 +8467,11 @@
         <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.WordDayParameters.WordName">
             <summary>
             关键词
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.WordDayParameters.CampaignId">
+            <summary>
+            计划ID
             </summary>
         </member>
         <member name="T:OA.Core.Repositorys.BaseRepository`1">
@@ -8943,6 +9028,20 @@
             </summary>
             <param name="where"></param>
             <returns></returns>
+        </member>
+        <member name="T:OA.Core.Repositorys.TxoooSEMLogRepositoryBase`1">
+            <summary>
+             Repository
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+        </member>
+        <member name="M:OA.Core.Repositorys.TxoooSEMLogRepositoryBase`1.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{OA.Core.Repositorys.SugarDbContext},Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            构造器
+            </summary>
+            <param name="configuration"></param>
+            <param name="logger"></param>
+            <param name="memoryCache"></param>
         </member>
         <member name="T:OA.Core.Repositorys.TxoooSEMReport35RepositoryBase`1">
             <summary>
@@ -9756,6 +9855,18 @@
             </summary>
             <param name="parameters"></param>
             <returns></returns>
+        </member>
+        <member name="T:OA.Core.Services.TxoooSEMLogServiceBase`1">
+            <summary>
+            主表泛型服务
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEMLogServiceBase`1.#ctor(OA.Core.Repositorys.TxoooSEMLogRepositoryBase{`0})">
+            <summary>
+            构造器
+            </summary>
+            <param name="repositoryBase"></param>
         </member>
         <member name="T:OA.Core.Services.TxoooSEMReport35ServiceBase`1">
             <summary>
