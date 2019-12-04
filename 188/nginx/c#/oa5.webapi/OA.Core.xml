@@ -5959,6 +5959,21 @@
             计费类型
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ClassId">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.GroupId">
+            <summary>
+            分组
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.DemandType">
+            <summary>
+            需求类型
+            </summary>
+        </member>
         <member name="T:OA.Core.Entitys.TxoooSEMLog.AccountLogInfo">
             <summary>
             日志列表 实体
@@ -6016,7 +6031,12 @@
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.action">
             <summary>
-            
+            操作
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.Id">
+            <summary>
+            自增ID
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.VYear">
@@ -6106,7 +6126,7 @@
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEMReport35.IdeaDayInfo.Id">
             <summary>
-            
+            自增ID
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEMReport35.IdeaDayInfo.VYear">
@@ -8210,7 +8230,7 @@
         </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters">
             <summary>
-            
+            计划查询参数
             </summary>
         </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.AccountId">
@@ -8243,12 +8263,21 @@
             计划ID
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanIds">
+            <summary>
+            批量编辑 计划ID
+            </summary>
+        </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.CampaignId">
             <summary>
             推广apiId
             </summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.ApiBudget" -->
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.ApiBudget">
+            <summary>
+            预算(消费限额)
+            </summary>
+        </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.Remark">
             <summary>
             备注
@@ -8272,6 +8301,16 @@
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanXgType">
             <summary>
             计费类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.ClassId">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.GroupId">
+            <summary>
+            分组
             </summary>
         </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters">
@@ -9758,6 +9797,7 @@
             </summary>
             <param name="repositoryBase"></param>
             <param name="txoooCRM2013ServiceBase"></param>
+            <param name="txoooOfficeServiceBase"></param>
         </member>
         <member name="M:OA.Core.Services.TxoooSEM35.PlanService.GetPlanList(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>
@@ -9770,6 +9810,12 @@
             <summary>
             
             </summary>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountDayService.#ctor(OA.Core.Repositorys.TxoooSEMReport35RepositoryBase{OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo})">
+            <summary>
+            
+            </summary>
+            <param name="accountDayBase"></param>
         </member>
         <member name="M:OA.Core.Services.TxoooSEM35.AccountDayService.GetAccountDayReport(OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters)">
             <summary>
@@ -9837,6 +9883,12 @@
             
             </summary>
         </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.UnitDayService.#ctor(OA.Core.Repositorys.TxoooSEMReport35RepositoryBase{OA.Core.Entitys.TxoooSEMReport35.UnitDayInfo})">
+            <summary>
+            
+            </summary>
+            <param name="unitDayBase"></param>
+        </member>
         <member name="M:OA.Core.Services.TxoooSEM35.UnitDayService.GetUnitDayReport(OA.Core.QueryViewModels.TxoooSEMReport35.UnitDayParameters)">
             <summary>
             获得单元日报表信息
@@ -9848,6 +9900,12 @@
             <summary>
             
             </summary>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.WordDayService.#ctor(OA.Core.Repositorys.TxoooSEMReport35RepositoryBase{OA.Core.Entitys.TxoooSEMReport35.WordDayInfo})">
+            <summary>
+            
+            </summary>
+            <param name="wordDayBase"></param>
         </member>
         <member name="M:OA.Core.Services.TxoooSEM35.WordDayService.GetWordDayReport(OA.Core.QueryViewModels.TxoooSEMReport35.WordDayParameters)">
             <summary>

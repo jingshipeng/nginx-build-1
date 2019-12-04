@@ -545,6 +545,7 @@
             </summary>
             <param name="txoooSEM35ServiceBase"></param>
             <param name="accountService"></param>
+            <param name="options"></param>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.ErrorAccountApplyController.InsertApply(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
             <summary>
@@ -566,6 +567,13 @@
             </summary>
             <param name="accountService"></param>
             <param name="txoooSEMLogServiceBase"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.Get(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.EditPassword(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
             <summary>
@@ -812,6 +820,21 @@
             修改api计划ID
             </summary>
             <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditClassAndGroup(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+             批量修改行业分类，分组
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditDemandType(System.String,System.Int32)">
+            <summary>
+            批量修改需求类型
+            </summary>
+            <param name="planIds"></param>
+            <param name="demandType"></param>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditBrandId(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
