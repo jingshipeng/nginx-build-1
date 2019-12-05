@@ -659,6 +659,13 @@
             <param name="parameters"></param>
             <returns></returns>
         </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetTkStatus(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            批量退款状态
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountDayReportController.#ctor(OA.Core.Services.TxoooSEMReport35ServiceBase{OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo},OA.Core.Services.TxoooSEM35.AccountDayService)">
             <summary>
             
@@ -1445,6 +1452,31 @@
         <member name="P:OA.WebApi.Helper.PermissionItem.Href">
             <summary>
             请求Url
+            </summary>
+        </member>
+        <member name="T:OA.WebApi.Helper.RBACStruct">
+            <summary>
+            部门
+            </summary>
+        </member>
+        <member name="F:OA.WebApi.Helper.RBACStruct.DEVELOPER_STRU">
+            <summary>
+            开发部门
+            </summary>
+        </member>
+        <member name="F:OA.WebApi.Helper.RBACStruct.CAIWU">
+            <summary>
+            财务部门
+            </summary>
+        </member>
+        <member name="F:OA.WebApi.Helper.RBACStruct.MEIJIEZHUGUAN">
+            <summary>
+            媒介主管
+            </summary>
+        </member>
+        <member name="F:OA.WebApi.Helper.RBACStruct.KEFUCAIWU">
+            <summary>
+            客服+财务
             </summary>
         </member>
         <member name="T:OA.WebApi.Helper.TxRouteAttribute">

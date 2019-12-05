@@ -5806,12 +5806,17 @@
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.CheckUrl">
             <summary>
-            
+            检测Url
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.AutoSynStruct">
             <summary>
-            
+            Url索引
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.TkStatus">
+            <summary>
+            退款状态
             </summary>
         </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.CrmClassEnum">
@@ -8224,6 +8229,11 @@
             </summary>
         </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.AutoSynStruct">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.TkStatus">
             <summary>
             
             </summary>
