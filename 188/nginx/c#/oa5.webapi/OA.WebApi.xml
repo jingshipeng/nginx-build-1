@@ -539,6 +539,21 @@
             <param name="employeeParameters"></param>
             <returns></returns>
         </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountBrandHistoryController.#ctor(OA.Core.Services.TxoooSEM35ServiceBase{OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo},OA.Core.Services.TxoooSEM35.AccountBrandHistoryService,Microsoft.Extensions.Options.IOptions{OA.WebApi.Helper.JwtSettings})">
+            <summary>
+            
+            </summary>
+            <param name="txoooSEM35ServiceBase"></param>
+            <param name="accountBrandHistoryService"></param>
+            <param name="options"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountBrandHistoryController.InsertAccountBrandHistory(OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters)">
+            <summary>
+            申请入库
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.ErrorAccountApplyController.#ctor(OA.Core.Services.TxoooSEM35ServiceBase{OA.Core.Entitys.TxoooSEM35.ErrorAccountApplyInfo},OA.Core.Services.TxoooSEM35.AccountService,Microsoft.Extensions.Options.IOptions{OA.WebApi.Helper.JwtSettings})">
             <summary>
             
@@ -836,12 +851,53 @@
             <param name="parameters"></param>
             <returns></returns>
         </member>
-        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditDemandType(System.String,System.Int32)">
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditDemandType(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>
-            批量修改需求类型
+            批量编辑需求类型
             </summary>
-            <param name="planIds"></param>
-            <param name="demandType"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanJzType(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            计划定向
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanJzGrape(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            批量编辑人群层次
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditJzArea(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            批量编辑推广地区
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanShowUse(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            批量编辑计划用途
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditNexId(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            批量编辑推广平台
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanShowTerminal(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            批量编辑终端
+            </summary>
+            <param name="param"></param>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditBrandId(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">

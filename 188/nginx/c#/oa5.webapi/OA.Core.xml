@@ -5414,6 +5414,66 @@
             API是否开始：0、暂停，1、启用，2、异常停止，其他错误状态
             </summary>
         </member>
+        <member name="T:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo">
+            <summary>
+            账户品牌映射 实体
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.HId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.AYear">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.AMonth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.ADay">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.ADate">
+            <summary>
+            年月日int
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.AccountId">
+            <summary>
+            账户id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.NexId">
+            <summary>
+            平台id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.BrandId">
+            <summary>
+            品牌id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.EmpolyeeId">
+            <summary>
+            员工id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.EmpolyeeName">
+            <summary>
+            员工姓名
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo.AddTime">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.AccountInfo">
             <summary>
             Account 实体
@@ -5819,6 +5879,11 @@
             退款状态
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.BrandId">
+            <summary>
+            品牌id
+            </summary>
+        </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.CrmClassEnum">
             <summary>
             各种账户分类
@@ -5977,6 +6042,36 @@
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.DemandType">
             <summary>
             需求类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.NexId">
+            <summary>
+            计划平台
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanJzType">
+            <summary>
+            计划定向
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanJzGrape">
+            <summary>
+            人群层次
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanJzArea">
+            <summary>
+            推广地区
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanShowUse">
+            <summary>
+            资源用途
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanShowTerminal">
+            <summary>
+            计划终端
             </summary>
         </member>
         <member name="T:OA.Core.Entitys.TxoooSEMLog.AccountLogInfo">
@@ -8103,6 +8198,66 @@
             
             </summary>
         </member>
+        <member name="T:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.HId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.AYear">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.AMonth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.ADay">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.ADate">
+            <summary>
+            年月日int
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.AccountId">
+            <summary>
+            账户id
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.BrandId">
+            <summary>
+            品牌id
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.NexId">
+            <summary>
+            平台id
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.EmpolyeeId">
+            <summary>
+            员工id
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.EmpolyeeName">
+            <summary>
+            员工姓名
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters.AddTime">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters">
             <summary>
             
@@ -8321,6 +8476,41 @@
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.GroupId">
             <summary>
             分组
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.DemandType">
+            <summary>
+            需求类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.NexId">
+            <summary>
+            计划平台
+            </summary>        
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanJzType">
+            <summary>
+            计划定向
+            </summary>       
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanJzGrape">
+            <summary>
+            人群层次
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanJzArea">
+            <summary>
+            推广地区
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanShowUse">
+            <summary>
+            资源用途
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanJzTerminal">
+            <summary>
+            计划终端
             </summary>
         </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters">
@@ -9756,6 +9946,24 @@
         <member name="M:OA.Core.Services.TxoooSEM35.AccountApiAuthAgentService.GetAccountApiAuthAgent(OA.Core.QueryViewModels.TxoooSEM35.AccountApiAuthAgentParameters)">
             <summary>
             获得MCC账户信息
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OA.Core.Services.TxoooSEM35.AccountBrandHistoryService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountBrandHistoryService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo})">
+            <summary>
+            
+            </summary>
+            <param name="accountBrandHistoryBase"></param>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountBrandHistoryService.GetAccountBrandHistory(OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters)">
+            <summary>
+            获得账户品牌映射表
             </summary>
             <param name="parameters"></param>
             <returns></returns>
