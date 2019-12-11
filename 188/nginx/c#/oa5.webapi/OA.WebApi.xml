@@ -539,17 +539,31 @@
             <param name="employeeParameters"></param>
             <returns></returns>
         </member>
-        <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountBrandHistoryController.#ctor(OA.Core.Services.TxoooSEM35ServiceBase{OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo},OA.Core.Services.TxoooSEM35.AccountBrandHistoryService,Microsoft.Extensions.Options.IOptions{OA.WebApi.Helper.JwtSettings})">
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountBrandHistoryController.#ctor(OA.Core.Services.TxoooSEM35ServiceBase{OA.Core.Entitys.TxoooSEM35.AccountBrandHistoryInfo},OA.Core.Services.TxoooSEM35.AccountBrandHistoryService,Microsoft.Extensions.Options.IOptions{OA.WebApi.Helper.JwtSettings},OA.Core.Services.TxoooSEMLogServiceBase{OA.Core.Entitys.TxoooSEMLog.AccountLogInfo})">
             <summary>
             
             </summary>
             <param name="txoooSEM35ServiceBase"></param>
             <param name="accountBrandHistoryService"></param>
             <param name="options"></param>
+            <param name="txoooSEMLogServiceBase"></param>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountBrandHistoryController.InsertAccountBrandHistory(OA.Core.QueryViewModels.TxoooSEM35.AccountBrandHistoryParameters)">
             <summary>
             申请入库
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountRebateController.#ctor(OA.Core.Services.TxoooSEM35.AccountRebateService)">
+            <summary>
+            
+            </summary>
+            <param name="accountRebateService"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountRebateController.Get(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateParameters)">
+            <summary>
+            
             </summary>
             <param name="parameters"></param>
             <returns></returns>
@@ -576,12 +590,26 @@
             <param name="txoooSEM35ServiceBase"></param>
             <param name="accountService"></param>
         </member>
-        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.#ctor(OA.Core.Services.TxoooSEM35.AccountService,OA.Core.Services.TxoooSEMLogServiceBase{OA.Core.Entitys.TxoooSEMLog.AccountLogInfo})">
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountHistoryController.#ctor(OA.Core.Services.TxoooSEM35.AccountHistoryService)">
+            <summary>
+            
+            </summary>
+            <param name="accountHistoryService"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountHistoryController.Get(OA.Core.QueryViewModels.TxoooSEM35.AccountHistoryParameters)">
+            <summary>
+            
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.#ctor(OA.Core.Services.TxoooSEM35.AccountService,OA.Core.Services.TxoooSEMLogServiceBase{OA.Core.Entitys.TxoooSEMLog.AccountLogInfo},OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.AccountHistoryInfo})">
             <summary>
             
             </summary>
             <param name="accountService"></param>
             <param name="txoooSEMLogServiceBase"></param>
+            <param name="accountHistoryService"></param>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.Get(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
             <summary>
