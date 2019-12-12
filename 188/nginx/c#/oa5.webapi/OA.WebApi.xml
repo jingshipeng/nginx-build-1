@@ -709,6 +709,20 @@
             <param name="parameters"></param>
             <returns></returns>
         </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetZdHandle(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            批量自动处理
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.SetApiEdition(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            批量API使用版本
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountDayReportController.#ctor(OA.Core.Services.TxoooSEMReport35ServiceBase{OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo},OA.Core.Services.TxoooSEM35.AccountDayService)">
             <summary>
             
@@ -845,6 +859,27 @@
              <param name="txoooSEMLogServiceBase"></param>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditApiBudget(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            修改本地预算
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanFeedType(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            修改信息流类型
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.IsDelete(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
+            <summary>
+            修改信息流类型
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanInfo(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>
             修改本地预算
             </summary>

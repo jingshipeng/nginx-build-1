@@ -5711,55 +5711,100 @@
         </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo">
             <summary>
-            账户返点 实体
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.RebateId">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.RYear">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.RMonth">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.RDay">
-            <summary>
-            
+            账户返点（消费应收款） 实体
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.RDate">
             <summary>
-            年月日int
+            
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.AccountId">
             <summary>
-            账户id
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.AccountName">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.BrandId">
             <summary>
-            品牌id
+            
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.NexId">
             <summary>
-            服务类型
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.NexName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.AccountType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.ServiceName">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.RebateNum">
             <summary>
-            返利点数%
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.Cost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.YsCost">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.Addtime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.Cpc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.Impression">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.Ctr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.Cpm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.Click">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.ConvertNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.SyncTime">
             <summary>
             
             </summary>
@@ -6114,6 +6159,16 @@
             品牌id
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.ZdHandle">
+            <summary>
+            自动处理
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo.ApiEdition">
+            <summary>
+            API使用版本
+            </summary>
+        </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.CrmClassEnum">
             <summary>
             各种账户分类
@@ -6304,6 +6359,16 @@
             计划终端
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanFeedType">
+            <summary>
+            信息流类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.IsDelete">
+            <summary>
+            是否已删除
+            </summary>
+        </member>
         <member name="T:OA.Core.Entitys.TxoooSEMLog.AccountLogInfo">
             <summary>
             日志列表 实体
@@ -6402,6 +6467,86 @@
         <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.AccountType">
             <summary>
             账户类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.AccountMasterIn">
+            <summary>
+            内部负责人 员工id  旧：TxoooSEM库Employee_Map
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.AccountMasterInName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.MediaId">
+            <summary>
+            媒体id   TxoooCRM2013.CRM_Class parent_id = 21446
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.MediaName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.MediaProduct">
+            <summary>
+            媒体产品id （账户渠道） TxoooCRM2013.CRM_Class parent_id = 22643
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.MediaProductName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.UsageId">
+            <summary>
+            内部用途（账户用途） TxoooCRM2013.CRM_Class parent_id = 20337
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.UsageName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.GroupId">
+            <summary>
+            账户分组
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.GroupName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.TeamId">
+            <summary>
+            梯队 TxoooCRM2013.CRM_Class parent_id = 22625
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.TeamName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.ServiceId">
+            <summary>
+            业务团队（服务类型) TxoooCRM2013.CRM_Class parent_id = 22547
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.ServiceName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.NexId">
+            <summary>
+            服务标识（所属平台) TxoooCRM2013.CRM_Class parent_id = 20025
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.NexName">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.UserId">
@@ -8723,6 +8868,16 @@
             
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.ZdHandle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.ApiEdition">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.Id">
             <summary>
             
@@ -8918,6 +9073,16 @@
             计划终端
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.PlanFeedType">
+            <summary>
+            信息流类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.IsDelete">
+            <summary>
+            是否删除 
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters">
             <summary>
             
@@ -8936,6 +9101,46 @@
         <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters.EndTime">
             <summary>
             
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters.AccountName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters.AccountMasterIn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters.MediaId">
+            <summary>
+            媒体id   TxoooCRM2013.CRM_Class parent_id = 21446
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters.MediaProduct">
+            <summary>
+            媒体产品id （账户渠道） TxoooCRM2013.CRM_Class parent_id = 22643
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters.UsageId">
+            <summary>
+            内部用途（账户用途） TxoooCRM2013.CRM_Class parent_id = 20337
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters.TeamId">
+            <summary>
+            梯队 TxoooCRM2013.CRM_Class parent_id = 22625
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters.ServiceId">
+            <summary>
+            业务团队（服务类型) TxoooCRM2013.CRM_Class parent_id = 22547
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters.NexId">
+            <summary>
+            服务标识（所属平台) TxoooCRM2013.CRM_Class parent_id = 20025
             </summary>
         </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.IdeaDayParameters">
@@ -10428,11 +10633,12 @@
             
             </summary>
         </member>
-        <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.AccountRebateInfo})">
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.AccountRebateInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo})">
             <summary>
             
             </summary>
             <param name="repositoryBase"></param>
+            <param name="txoooCRM2013ServiceBase"></param>
         </member>
         <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateService.GetAccountRebateList(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateParameters)">
             <summary>
@@ -10509,11 +10715,13 @@
             
             </summary>
         </member>
-        <member name="M:OA.Core.Services.TxoooSEM35.AccountDayService.#ctor(OA.Core.Repositorys.TxoooSEMReport35RepositoryBase{OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo})">
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountDayService.#ctor(OA.Core.Repositorys.TxoooSEMReport35RepositoryBase{OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Services.TxoooOfficeServiceBase{OA.Core.Entitys.TxoooOffice.ViewV4OAZDLEmployeeInfo})">
             <summary>
             
             </summary>
             <param name="accountDayBase"></param>
+            <param name="txoooCRM2013ServiceBase"></param>
+            <param name="txoooOfficeServiceBase"></param>
         </member>
         <member name="M:OA.Core.Services.TxoooSEM35.AccountDayService.GetAccountDayReport(OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters)">
             <summary>
