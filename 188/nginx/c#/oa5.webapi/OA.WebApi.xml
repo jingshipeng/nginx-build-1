@@ -555,17 +555,31 @@
             <param name="parameters"></param>
             <returns></returns>
         </member>
-        <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountRebateController.#ctor(OA.Core.Services.TxoooSEM35.AccountRebateService)">
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountRebateController.#ctor(OA.Core.Services.TxoooSEM35.AccountRebateService,OA.Core.Services.TxoooSEM35.AccountRebateSummaryService)">
             <summary>
             
             </summary>
             <param name="accountRebateService"></param>
+            <param name="accountRebateSummaryService"></param>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountRebateController.Get(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateParameters)">
             <summary>
             
             </summary>
             <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountRebateController.Brand(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters)">
+            <summary>
+            品牌统计
+            </summary>
+            <param name="accountRebateSummaryParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.AccountRebateController.BrandColunms">
+            <summary>
+            品牌统计
+            </summary>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.ErrorAccountApplyController.#ctor(OA.Core.Services.TxoooSEM35ServiceBase{OA.Core.Entitys.TxoooSEM35.ErrorAccountApplyInfo},OA.Core.Services.TxoooSEM35.AccountService,Microsoft.Extensions.Options.IOptions{OA.WebApi.Helper.JwtSettings})">
@@ -614,6 +628,13 @@
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.Get(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
             <summary>
             
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.BindBrand(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            绑定品牌
             </summary>
             <param name="parameters"></param>
             <returns></returns>

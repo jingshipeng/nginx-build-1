@@ -226,17 +226,22 @@
         </member>
         <member name="T:OA.Core.Common.CacheTimeConstants">
             <summary>
-            
+            缓存时间常量
             </summary>
         </member>
         <member name="F:OA.Core.Common.CacheTimeConstants.CacheCRMClass">
             <summary>
-            
+            分类
             </summary>
         </member>
         <member name="F:OA.Core.Common.CacheTimeConstants.CacheEmployee">
             <summary>
-            
+            员工
+            </summary>
+        </member>
+        <member name="F:OA.Core.Common.CacheTimeConstants.CacheBrand">
+            <summary>
+            品牌
             </summary>
         </member>
         <member name="T:OA.Core.Common.OA4TxUserTicket">
@@ -5894,6 +5899,11 @@
             
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.MediaProductName">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.BusinessType">
             <summary>
             业务类型
@@ -5922,6 +5932,96 @@
         <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.StackTrace">
             <summary>
             错误堆栈
+            </summary>
+        </member>
+        <member name="T:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo">
+            <summary>
+            每日账户返点消费 实体
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.RebateId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.RYear">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.RMonth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.RDay">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.RDate">
+            <summary>
+            年月日int
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.AccountId">
+            <summary>
+            账户id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.BrandId">
+            <summary>
+            品牌id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.BrandName">
+            <summary>
+            品牌名称
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.NexId">
+            <summary>
+            服务类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.RebateNum">
+            <summary>
+            返利点数%
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.Cost">
+            <summary>
+            账户累积消费
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.Cpc">
+            <summary>
+            点击均价
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.Impression">
+            <summary>
+             展示数
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.Ctr">
+            <summary>
+            点击率
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.Cpm">
+            <summary>
+            千次展现均价
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.Click">
+            <summary>
+            点击数
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.ConvertNum">
+            <summary>
+            转化
             </summary>
         </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo">
@@ -8888,6 +8988,11 @@
             
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountParameters.BrandId">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateParameters">
             <summary>
             
@@ -8951,6 +9056,36 @@
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateParameters.EndTime">
             <summary>
             
+            </summary>
+        </member>
+        <member name="T:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters">
+            <summary>
+            汇总账户返点条件
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters.StartTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters.EndTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters.AccountId">
+            <summary>
+            账户id
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters.BrandId">
+            <summary>
+            品牌id
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters.NexId">
+            <summary>
+            服务类型
             </summary>
         </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters">
@@ -9893,6 +10028,26 @@
             <param name="where"></param>
             <returns></returns>
         </member>
+        <member name="T:OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{OA.Core.Repositorys.SugarDbContext},Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+            <param name="logger"></param>
+            <param name="memoryCache"></param>
+        </member>
+        <member name="M:OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository.Brand(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters)">
+            <summary>
+            
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
         <member name="T:OA.Core.Repositorys.TxoooSEMLogRepositoryBase`1">
             <summary>
              Repository
@@ -10645,6 +10800,25 @@
             获得账户返点列表
             </summary>
             <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OA.Core.Services.TxoooSEM35.AccountRebateSummaryService">
+            <summary>
+            账户返利汇总
+            </summary>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateSummaryService.#ctor(OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository,OA.Core.Services.TxoooBrandsServiceBase{OA.Core.Entitys.TxoooBrands.BrandIndexInfo})">
+            <summary>
+            
+            </summary>
+            <param name="repositoryBase"></param>
+            <param name="txoooBrandsServiceBase"></param>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateSummaryService.Brand(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters)">
+            <summary>
+            
+            </summary>
+            <param name="where"></param>
             <returns></returns>
         </member>
         <member name="T:OA.Core.Services.TxoooSEM35.AccountService">
