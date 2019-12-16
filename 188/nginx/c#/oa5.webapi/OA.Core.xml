@@ -244,6 +244,11 @@
             品牌
             </summary>
         </member>
+        <member name="F:OA.Core.Common.CacheTimeConstants.CacheSEMAccount">
+            <summary>
+            SEM账户
+            </summary>
+        </member>
         <member name="T:OA.Core.Common.OA4TxUserTicket">
             <summary>
             OA4 用户票证
@@ -5739,6 +5744,11 @@
             
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.BrandName">
+            <summary>
+            品牌名称
+            </summary>
+        </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.AccountRebateInfo.NexId">
             <summary>
             
@@ -5969,6 +5979,11 @@
             账户id
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.AccountName">
+            <summary>
+            账户名称
+            </summary>
+        </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.BrandId">
             <summary>
             品牌id
@@ -5992,6 +6007,11 @@
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.Cost">
             <summary>
             账户累积消费
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.XianJin">
+            <summary>
+            应收款
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.Cpc">
@@ -6022,6 +6042,21 @@
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo.ConvertNum">
             <summary>
             转化
+            </summary>
+        </member>
+        <member name="T:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateAccountInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateAccountInfo.AccountId">
+            <summary>
+            账户id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateAccountInfo.AccountName">
+            <summary>
+            账户名称
             </summary>
         </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo">
@@ -9083,9 +9118,14 @@
             品牌id
             </summary>
         </member>
-        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters.NexId">
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters.MediaId">
             <summary>
-            服务类型
+            媒体id   TxoooCRM2013.CRM_Class parent_id = 21446
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters.UsageId">
+            <summary>
+            内部用途（账户用途） TxoooCRM2013.CRM_Class parent_id = 20337
             </summary>
         </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters">
@@ -9477,6 +9517,11 @@
         <member name="P:OA.Core.Repositorys.BaseRepository`1.db">
             <summary>
             当前SugarClinet
+            </summary>
+        </member>
+        <member name="P:OA.Core.Repositorys.BaseRepository`1.EntityDB">
+            <summary>
+            
             </summary>
         </member>
         <member name="M:OA.Core.Repositorys.BaseRepository`1.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{OA.Core.Repositorys.SugarDbContext},Microsoft.Extensions.Caching.Memory.IMemoryCache)">
@@ -9874,6 +9919,62 @@
             <param name="where"></param>
             <returns></returns>
         </member>
+        <member name="M:OA.Core.Repositorys.SummaryDataRepositoryBase`1.GetKfHourWhere(OA.Core.QueryViewModels.SummaryData.KfWhereInfo)">
+            <summary>
+            客服条件
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Repositorys.SummaryDataRepositoryBase`1.GetKfNexWhere(OA.Core.QueryViewModels.SummaryData.KfWhereInfo)">
+            <summary>
+            客服条件
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OA.Core.Repositorys.SummaryData.KfRepository">
+            <summary>
+            客服数据库操作
+            </summary>
+        </member>
+        <member name="M:OA.Core.Repositorys.SummaryData.KfRepository.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{OA.Core.Repositorys.SugarDbContext},Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+            <param name="logger"></param>
+            <param name="memoryCache"></param>
+        </member>
+        <member name="M:OA.Core.Repositorys.SummaryData.KfRepository.GroupHour(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.SummaryData.KfHourInfo,System.Boolean}})">
+            <summary>
+            按小时统计
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Repositorys.SummaryData.KfRepository.GroupNex(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.SummaryData.KfBrandNexInfo,System.Boolean}})">
+            <summary>
+            按平台统计
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Repositorys.SummaryData.KfRepository.GroupMedia(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.SummaryData.KfMediaInfo,System.Boolean}})">
+            <summary>
+            按媒体统计
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Repositorys.SummaryData.KfRepository.GroupBrand(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.SummaryData.KfBrandNexInfo,System.Boolean}},OA.Core.QueryViewModels.SummaryData.KfWhereInfo)">
+            <summary>
+            按媒体统计
+            </summary>
+            <param name="expression"></param>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
         <member name="T:OA.Core.Repositorys.TalkInfoRepositoryBase`1">
             <summary>
              Repository
@@ -9901,6 +10002,27 @@
             <param name="configuration"></param>
             <param name="logger"></param>
             <param name="memoryCache"></param>
+        </member>
+        <member name="T:OA.Core.Repositorys.TXCall.ClueInfoRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OA.Core.Repositorys.TXCall.ClueInfoRepository.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{OA.Core.Repositorys.SugarDbContext},Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+            <param name="logger"></param>
+            <param name="memoryCache"></param>
+        </member>
+        <member name="M:OA.Core.Repositorys.TXCall.ClueInfoRepository.GroupDay(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.TXCall.ClueInfoInfo,System.Boolean}},OA.Core.QueryViewModels.ClueCurrencyWhereInfo)">
+            <summary>
+            按时间统计
+            </summary>
+            <param name="expression"></param>
+            <param name="where"></param>
+            <returns></returns>
         </member>
         <member name="T:OA.Core.Repositorys.TXClueRepositoryBase`1">
             <summary>
@@ -9934,6 +10056,62 @@
             <summary>
             
             </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OA.Core.Repositorys.TXClue.ClueOutFeebackRepository">
+            <summary>
+            线索反馈仓储
+            </summary>
+        </member>
+        <member name="M:OA.Core.Repositorys.TXClue.ClueOutFeebackRepository.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{OA.Core.Repositorys.SugarDbContext},Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+            <param name="logger"></param>
+            <param name="memoryCache"></param>
+        </member>
+        <member name="M:OA.Core.Repositorys.TXClue.ClueOutFeebackRepository.GroupPhone(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.TXClue.ViewV6OA5MFCClueOutInfo,System.Boolean}})">
+            <summary>
+            品牌电话统计
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Repositorys.TXClue.ClueOutFeebackRepository.GroupPhone2(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.TXClue.ViewV6OA5MFCClueOutInfo,System.Boolean}})">
+            <summary>
+            品牌电话统计
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Repositorys.TXClue.ClueOutFeebackRepository.GroupPhone3(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.TXClue.ViewV6OA5MFCClueOutInfo,System.Boolean}})">
+            <summary>
+            品牌电话统计
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Repositorys.TXClue.ClueOutFeebackRepository.GroupPhone4(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.TXClue.ViewV6OA5MFCClueOutInfo,System.Boolean}})">
+            <summary>
+            品牌电话统计
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Repositorys.TXClue.ClueOutFeebackRepository.GroupPhone5(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.TXClue.ViewV6OA5MFCClueOutInfo,System.Boolean}})">
+            <summary>
+            品牌电话统计
+            </summary>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Repositorys.TXClue.ClueOutFeebackRepository.GroupNex(System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.TXClue.ViewV6OA5MFCClueOutInfo,System.Boolean}},OA.Core.Entitys.TXClue.Output.ClueWhereInfo)">
+            <summary>
+            品牌电话统计
+            </summary>
+            <param name="expression"></param>
             <param name="where"></param>
             <returns></returns>
         </member>
@@ -10030,7 +10208,7 @@
         </member>
         <member name="T:OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository">
             <summary>
-            
+            账户返点
             </summary>
         </member>
         <member name="M:OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{OA.Core.Repositorys.SugarDbContext},Microsoft.Extensions.Caching.Memory.IMemoryCache)">
@@ -10043,7 +10221,14 @@
         </member>
         <member name="M:OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository.Brand(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters)">
             <summary>
-            
+            按品牌统计
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository.Account(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters)">
+            <summary>
+            按账户统计
             </summary>
             <param name="where"></param>
             <returns></returns>
@@ -10414,11 +10599,11 @@
             通过线索
             </summary>
         </member>
-        <member name="M:OA.Core.Services.TXClue.ClueOutFeebackService.#ctor(OA.Core.Repositorys.TXClueRepositoryBase{OA.Core.Entitys.TXClue.ViewV6OA5MFCClueOutInfo},OA.Core.Repositorys.TXClueRepositoryBase{OA.Core.Entitys.TXClue.ViewV6OA5MFCClueOutMediaInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Repositorys.TxoooNExRepositoryBase{OA.Core.Entitys.TxoooNEx.BrandInfo})">
+        <member name="M:OA.Core.Services.TXClue.ClueOutFeebackService.#ctor(OA.Core.Repositorys.TXClue.ClueOutFeebackRepository,OA.Core.Repositorys.TXClueRepositoryBase{OA.Core.Entitys.TXClue.ViewV6OA5MFCClueOutMediaInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Repositorys.TxoooNExRepositoryBase{OA.Core.Entitys.TxoooNEx.BrandInfo})">
             <summary>
             
             </summary>
-            <param name="tXClueRepositoryBase"></param>
+            <param name="clueOutFeebackRepository"></param>
             <param name="tXClueMediaRepositoryBase"></param>
             <param name="txoooCRM2013ServiceBase"></param>
             <param name="txoooNExRepositoryBase"></param>
@@ -10557,12 +10742,12 @@
             
             </summary>
         </member>
-        <member name="M:OA.Core.Services.SummaryData.KfService.#ctor(OA.Core.Repositorys.SummaryDataRepositoryBase{OA.Core.Entitys.SummaryData.KfBrandNexInfo},OA.Core.Repositorys.SummaryDataRepositoryBase{OA.Core.Entitys.SummaryData.KfHourInfo},OA.Core.Repositorys.SummaryDataRepositoryBase{OA.Core.Entitys.SummaryData.KfMediaInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Repositorys.TxoooNExRepositoryBase{OA.Core.Entitys.TxoooNEx.BrandInfo})">
+        <member name="M:OA.Core.Services.SummaryData.KfService.#ctor(OA.Core.Repositorys.SummaryDataRepositoryBase{OA.Core.Entitys.SummaryData.KfBrandNexInfo},OA.Core.Repositorys.SummaryData.KfRepository,OA.Core.Repositorys.SummaryDataRepositoryBase{OA.Core.Entitys.SummaryData.KfMediaInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Repositorys.TxoooNExRepositoryBase{OA.Core.Entitys.TxoooNEx.BrandInfo})">
             <summary>
             
             </summary>
             <param name="summaryDataRepositoryBase"></param>
-            <param name="summaryDataKfHourRepositoryBase"></param>
+            <param name="kfRepository"></param>
             <param name="summaryDataKfMediaRepositoryBase"></param>
             <param name="txoooCRM2013ServiceBase"></param>
             <param name="txoooNExRepositoryBase"></param>
@@ -10631,7 +10816,7 @@
             通过线索
             </summary>
         </member>
-        <member name="M:OA.Core.Services.TXCall.ClueInfoService.#ctor(OA.Core.Repositorys.TXCallRepositoryBase{OA.Core.Entitys.TXCall.ClueInfoInfo})">
+        <member name="M:OA.Core.Services.TXCall.ClueInfoService.#ctor(OA.Core.Repositorys.TXCall.ClueInfoRepository)">
             <summary>
             
             </summary>
@@ -10788,12 +10973,13 @@
             
             </summary>
         </member>
-        <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.AccountRebateInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo})">
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.AccountRebateInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Services.TxoooBrandsServiceBase{OA.Core.Entitys.TxoooBrands.BrandIndexInfo})">
             <summary>
             
             </summary>
             <param name="repositoryBase"></param>
             <param name="txoooCRM2013ServiceBase"></param>
+            <param name="txoooBrandsServiceBase"></param>
         </member>
         <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateService.GetAccountRebateList(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateParameters)">
             <summary>
@@ -10807,16 +10993,24 @@
             账户返利汇总
             </summary>
         </member>
-        <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateSummaryService.#ctor(OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository,OA.Core.Services.TxoooBrandsServiceBase{OA.Core.Entitys.TxoooBrands.BrandIndexInfo})">
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateSummaryService.#ctor(OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository,OA.Core.Services.TxoooBrandsServiceBase{OA.Core.Entitys.TxoooBrands.BrandIndexInfo},OA.Core.Services.TxoooSEM35ServiceBase{OA.Core.Entitys.TxoooSEM35.AccountInfo})">
             <summary>
             
             </summary>
             <param name="repositoryBase"></param>
             <param name="txoooBrandsServiceBase"></param>
+            <param name="txoooSEM35ServiceBase"></param>
         </member>
         <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateSummaryService.Brand(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters)">
             <summary>
-            
+            按品牌统计
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountRebateSummaryService.Account(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters)">
+            <summary>
+            按账户统计
             </summary>
             <param name="where"></param>
             <returns></returns>
@@ -10826,15 +11020,18 @@
             
             </summary>
         </member>
-        <member name="M:OA.Core.Services.TxoooSEM35.AccountService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo},OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo},OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ErrorAccountApplyInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Services.TxoooOfficeServiceBase{OA.Core.Entitys.TxoooOffice.ViewV4OAZDLEmployeeInfo})">
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ViewOA5MFCGetAccountInfo},OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.AccountApiAuthInfo},OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo},OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ErrorAccountApplyInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Services.TxoooOfficeServiceBase{OA.Core.Entitys.TxoooOffice.ViewV4OAZDLEmployeeInfo},OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.AccountHistoryInfo},Microsoft.Extensions.Logging.ILogger{OA.Core.Services.TxoooSEM35.AccountService})">
             <summary>
             
             </summary>
             <param name="repositoryBase"></param>
+            <param name="authRepositoryBase"></param>
             <param name="errorAccountRepositoryBase"></param>
             <param name="errorAccountApplyRepositoryBase"></param>
             <param name="txoooCRM2013ServiceBase"></param>
             <param name="txoooOfficeServiceBase"></param>
+            <param name="accountHistoryRepositoryBase"></param>
+            <param name="logger"></param>
         </member>
         <member name="M:OA.Core.Services.TxoooSEM35.AccountService.GetAccountList(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
             <summary>
@@ -10860,6 +11057,13 @@
         <member name="M:OA.Core.Services.TxoooSEM35.AccountService.GetInsertList(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
             <summary>
             
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountService.SetMCC(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
+            <summary>
+            设置账户MCC
             </summary>
             <param name="parameters"></param>
             <returns></returns>
