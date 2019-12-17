@@ -285,6 +285,11 @@
             品牌名称
             </summary>
         </member>
+        <member name="P:OA.WebApi.Controllers.v1.TXClue.BrandIndexWhere.BrandId">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:OA.WebApi.Controllers.v1.TXClue.CRMClassController">
             <summary>
             媒体分类
@@ -303,6 +308,11 @@
         <member name="P:OA.WebApi.Controllers.v1.TXClue.BrandWhere.BrandName">
             <summary>
             品牌名称
+            </summary>
+        </member>
+        <member name="P:OA.WebApi.Controllers.v1.TXClue.BrandWhere.BrandId">
+            <summary>
+            
             </summary>
         </member>
         <member name="T:OA.WebApi.Controllers.v1.TXClue.ClassTagController">
@@ -637,13 +647,11 @@
             <param name="parameters"></param>
             <returns></returns>
         </member>
-        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.#ctor(OA.Core.Services.TxoooSEM35.AccountService,OA.Core.Services.TxoooSEMLogServiceBase{OA.Core.Entitys.TxoooSEMLog.AccountLogInfo},OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.AccountHistoryInfo})">
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.#ctor(OA.Core.Services.TxoooSEM35.AccountService)">
             <summary>
             
             </summary>
             <param name="accountService"></param>
-            <param name="txoooSEMLogServiceBase"></param>
-            <param name="accountHistoryService"></param>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.SEMAccountNewController.Get(OA.Core.QueryViewModels.TxoooSEM35.AccountParameters)">
             <summary>
@@ -804,6 +812,36 @@
             获取关键词日报表
             </summary>
             <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.ToolsCacheController.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            
+            </summary>
+            <param name="memoryCache"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.ToolsCacheController.AllKeys">
+            <summary>
+            获得所有key
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.ToolsCacheController.CacheList(System.String)">
+            <summary>
+            获取指定key值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.ToolsCacheController.Remove(System.String)">
+            <summary>
+            清除指定key
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.ToolsCacheController.RemoveAll">
+            <summary>
+            清除所有key
+            </summary>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TXCall.ClueInfoController.GetDayCount(OA.Core.QueryViewModels.ClueCurrencyWhereInfo)">
