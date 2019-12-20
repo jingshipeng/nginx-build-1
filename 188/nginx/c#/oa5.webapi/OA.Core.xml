@@ -6740,6 +6740,16 @@
             第三方名称
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.AgentId">
+            <summary>
+            MccID
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.AgentName">
+            <summary>
+            Mcc账户
+            </summary>
+        </member>
         <member name="P:OA.Core.Entitys.TxoooSEMReport35.AccountDayInfo.Cost">
             <summary>
             账户累积消费
@@ -9399,6 +9409,11 @@
             服务标识（所属平台) TxoooCRM2013.CRM_Class parent_id = 20025
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters.AgentId">
+            <summary>
+            Mcc账户
+            </summary>
+        </member>
         <member name="T:OA.Core.QueryViewModels.TxoooSEMReport35.IdeaDayParameters">
             <summary>
             
@@ -10347,11 +10362,12 @@
             <param name="where"></param>
             <returns></returns>
         </member>
-        <member name="M:OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository.Account(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters)">
+        <member name="M:OA.Core.Repositorys.TxoooSEM35.AccountRebateSummaryRepository.Account(OA.Core.QueryViewModels.TxoooSEM35.AccountRebateSummaryParameters,System.Action{OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo,SqlSugar.MapperCache{OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo}})">
             <summary>
             按账户统计
             </summary>
             <param name="where"></param>
+            <param name="mapperAction"></param>
             <returns></returns>
         </member>
         <member name="T:OA.Core.Repositorys.TxoooSEMLogRepositoryBase`1">
@@ -10409,21 +10425,6 @@
         <member name="M:OA.Core.Services.BaseService`1.#ctor">
             <summary>
             构造器
-            </summary>
-        </member>
-        <member name="M:OA.Core.Services.BaseService`1.BeginTran">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:OA.Core.Services.BaseService`1.CommitTran">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:OA.Core.Services.BaseService`1.RollbackTran">
-            <summary>
-            
             </summary>
         </member>
         <member name="M:OA.Core.Services.BaseService`1.InsertReturnEntityAsync(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">
@@ -11453,6 +11454,13 @@
         <member name="M:OA.Core.Services.TxoooSEM35.AccountDayService.GetAccountDayReport(OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters)">
             <summary>
             获得账户日报表信息
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEM35.AccountDayService.GetSumAccountDayReport(OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters)">
+            <summary>
+            获得账户日报表汇总信息
             </summary>
             <param name="parameters"></param>
             <returns></returns>
