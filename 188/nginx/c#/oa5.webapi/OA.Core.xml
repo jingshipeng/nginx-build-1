@@ -4808,7 +4808,7 @@
             菜单管理 实体
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.ID">
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.Id">
             <summary>
             
             </summary>
@@ -4816,6 +4816,11 @@
         <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.Name">
             <summary>
             菜单名称
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.Descripte">
+            <summary>
+            描述
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.ParentID">
@@ -4828,39 +4833,14 @@
             填表人
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.AddTime">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.Type">
-            <summary>
-            0模块 1组名  2具体功能菜单
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.Descripte">
-            <summary>
-            描述
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.StartTime">
-            <summary>
-            任务开始时间
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.FinishTime">
-            <summary>
-            任务结束时间
-            </summary>
-        </member>
         <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.Developer">
             <summary>
             开发人
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.ModuleId">
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.OrderId">
             <summary>
-            模块ID
+            
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.Params">
@@ -4873,9 +4853,39 @@
             开发状态
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.OrderId">
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.EmployeeIds">
             <summary>
             
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.StructIds">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.AddTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.Type">
+            <summary>
+            0模块 1组名  2具体功能菜单
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.StartTime">
+            <summary>
+            任务开始时间
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.FinishTime">
+            <summary>
+            任务结束时间
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.ModuleId">
+            <summary>
+            模块ID
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.Tag">
@@ -4893,19 +4903,14 @@
             
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.EmployeeIds">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.StructIds">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.IsOpen">
             <summary>
             是否对外开放
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooOffice.NewMenusOldInfo.Children">
+            <summary>
+            子菜单
             </summary>
         </member>
         <member name="T:OA.Core.Entitys.TxoooOffice.ViewLGZSystemUserStructureInfo">
@@ -5625,6 +5630,16 @@
             
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountHistoryInfo.ZidongHandle">
+            <summary>
+            自动处理
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.AccountHistoryInfo.ApiEdition">
+            <summary>
+            API使用版本 0无API 1百度V4 2百度Feed
+            </summary>
+        </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.AccountHistoryInfo.EmpolyeeId">
             <summary>
             操作人id
@@ -5983,6 +5998,341 @@
         <member name="P:OA.Core.Entitys.TxoooSEM35.ErrorAccountInfo.StackTrace">
             <summary>
             错误堆栈
+            </summary>
+        </member>
+        <member name="T:OA.Core.Entitys.TxoooSEM35.PlanApiInfo">
+            <summary>
+             plan_api 实体
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.PlanId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.AccountId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiCampaignId">
+            <summary>
+            计划id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiCampaignName">
+            <summary>
+            计划名称
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiBudget">
+            <summary>
+            计划预算
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiBudgetOfflineTime">
+            <summary>
+            	
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiCampaignType">
+            <summary>
+            计划类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiDevice">
+            <summary>
+            推广设备
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiExactNegativeWords">
+            <summary>
+            精确否定关键词
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiIsDynamicCreative">
+            <summary>
+            子链开关
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiIsDynamicTagSublink">
+            <summary>
+            标签子链开关
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiIsDynamicTitle">
+            <summary>
+            动态标题开关
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiIsDynamicHotRedirect">
+            <summary>
+            热点直达开关
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiRegionTarget">
+            <summary>
+            计划推广地域
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiNegativeWords">
+            <summary>
+            计划否定关键词
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiPause">
+            <summary>
+            计划启停
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiPriceRatio">
+            <summary>
+            无线出价比例
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiPcPriceRatio">
+            <summary>
+            计算机出价比例
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiSchedule">
+            <summary>
+            循环暂停
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiShowProb">
+            <summary>
+            	
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiStatus">
+            <summary>
+            计划状态
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiBidPrefer">
+            <summary>
+            出价优先
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.SyncTime">
+            <summary>
+            接口同步时间
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiStarttime">
+            <summary>
+            计划开始时间
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiEndtime">
+            <summary>
+            推广结束日期。
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiBgtctltype">
+            <summary>
+            预算分配控制方式。默认为标准方式
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiBstype">
+            <summary>
+            1：普通计划 3：闪投计划
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiObjective">
+            <summary>
+            推广目标，用于区分不同计划类型下推广目标
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiAddtime">
+            <summary>
+            计划添加时间
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiSubject">
+            <summary>
+            推广对象
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiCampaignModifyTime">
+            <summary>
+            计划修改时间
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiModifyTime">
+            <summary>
+            时间戳,用于更新时提交
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiUniqueFk">
+            <summary>
+            第三方唯一键
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiStatusStr">
+            <summary>
+            广告组状态
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiIsPrecise">
+            <summary>
+            高级精确匹配，0 为关闭,1 为开启，默认开启
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiExtendAdType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiMobilePriceRate">
+            <summary>
+            移动出价比例, mobilePriceRate 只能是10的整数倍
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiBudgetReachDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiLastModifiedTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiCreatedTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiIsDeleted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiExcludeIps">
+            <summary>
+            排除ip
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanApiInfo.ApiJoinUnion">
+            <summary>
+            是否内容关联
+            </summary>
+        </member>
+        <member name="T:OA.Core.Entitys.TxoooSEM35.PlanInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.AccountId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.DemandType">
+            <summary>
+            需求类型TxoooNex Demand_Type表
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.ClassId">
+            <summary>
+            分类id TxoooNex Class_Tag表  [class_tag_id]=30000 也有可能是行业分类
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.GroupId">
+            <summary>
+            分组id class_id的子集
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.BrandId">
+            <summary>
+            品牌id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.EmployeeId">
+            <summary>
+            媒介负责人
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.NexId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.TargetBudget">
+            <summary>
+            目标预算
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.MaxPrice">
+            <summary>
+            最大出价
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanStatus">
+            <summary>
+            -1未知 0停用 1启动
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.Remark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanRule">
+            <summary>
+            json 存储所有规则
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanXgType">
+            <summary>
+            计费类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanJzType">
+            <summary>
+            计划定向
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanJzGrape">
+            <summary>
+            人群层次
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanJzArea">
+            <summary>
+            推广地区
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanShowTerminal">
+            <summary>
+            资源终端
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanShowUse">
+            <summary>
+            资源用途
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.PlanFeedType">
+            <summary>
+            信息流类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.PlanInfo.IsDelete">
+            <summary>
+            是否已删除
             </summary>
         </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.ViewOA5MFCAccountRebateInfo">
@@ -6390,25 +6740,55 @@
             
             </summary>
         </member>
+        <member name="F:OA.Core.Entitys.TxoooSEM35.CrmClassEnum.ClassId">
+            <summary>
+            行业分类ID
+            </summary>
+        </member>
+        <member name="F:OA.Core.Entitys.TxoooSEM35.CrmClassEnum.JzType">
+            <summary>
+            计划定向
+            </summary>
+        </member>
+        <member name="F:OA.Core.Entitys.TxoooSEM35.CrmClassEnum.JzGrape">
+            <summary>
+            人群层次
+            </summary>
+        </member>
+        <member name="F:OA.Core.Entitys.TxoooSEM35.CrmClassEnum.JzArea">
+            <summary>
+            推广地区
+            </summary>
+        </member>
+        <member name="F:OA.Core.Entitys.TxoooSEM35.CrmClassEnum.ShowTerminal">
+            <summary>
+            终端
+            </summary>
+        </member>
         <member name="T:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo">
             <summary>
             Account 实体
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiStatus">
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanStatus">
             <summary>
-            API是否开始：0、暂停，1、启用，2、异常停止，其他错误状态
+            -1未知 0停用 1启动
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.StatusName">
             <summary>
             API是否开始：0、暂停，1、启用，2、异常停止，其他错误状态
-            </summary>
+            </summary>       
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.AccountId">
             <summary>
             
             </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.AccountName">
+             <summary>
+            账户名称
+             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.MediaId">
             <summary>
@@ -6440,44 +6820,59 @@
             
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiCampaignId">
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.DemandType">
+            <summary>
+            需求类型TxoooNex Demand_Type表
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.DemandTypeName">
+            <summary>
+            需求类型名
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ClassId">
+            <summary>
+            分类id TxoooNex Class_Tag表  [class_tag_id]=30000 也有可能是行业分类
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ClassName">
+            <summary>
+            分类id TxoooNex Class_Tag表  [class_tag_id]=30000 也有可能是行业分类
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.GroupId">
+            <summary>
+            分组id class_id的子集
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.GroupName">
             <summary>
             
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiCampaignName">
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.BrandId">
             <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiBudget">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.SyncTime">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiPause">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiCampaignType">
-            <summary>
-            
+            品牌id
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.EmployeeId">
             <summary>
+            媒介负责人
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.NexId">
+            <summary>
             
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.EmployeeName">
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.TargetBudget">
             <summary>
-            
+            目标预算
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.MaxPrice">
+            <summary>
+            最大出价
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.Remark">
@@ -6485,34 +6880,14 @@
             
             </summary>
         </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.BrandId">
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanRule">
             <summary>
-            品牌ID
+            json 存储所有规则
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanXgType">
             <summary>
             计费类型
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ClassId">
-            <summary>
-            分类
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.GroupId">
-            <summary>
-            分组
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.DemandType">
-            <summary>
-            需求类型
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.NexId">
-            <summary>
-            计划平台
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanJzType">
@@ -6530,14 +6905,14 @@
             推广地区
             </summary>
         </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanShowTerminal">
+            <summary>
+            资源终端
+            </summary>
+        </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanShowUse">
             <summary>
             资源用途
-            </summary>
-        </member>
-        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanShowTerminal">
-            <summary>
-            计划终端
             </summary>
         </member>
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanFeedType">
@@ -6548,6 +6923,71 @@
         <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.IsDelete">
             <summary>
             是否已删除
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiCampaignId">
+            <summary>
+            计划id
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiCampaignName">
+            <summary>
+            计划名称
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiBudget">
+            <summary>
+            计划预算
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiCampaignType">
+            <summary>
+            计划类型
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiPause">
+            <summary>
+            计划启停
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.ApiStatus">
+            <summary>
+            计划状态
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.SyncTime">
+            <summary>
+            接口同步时间
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanShowUseName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.NexName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanJzAreaName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanJzGrapeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanJzTypeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo.PlanFeedTypeName">
+            <summary>
+            
             </summary>
         </member>
         <member name="T:OA.Core.Entitys.TxoooSEMLog.AccountLogInfo">
@@ -6938,6 +7378,96 @@
         <member name="P:OA.Core.Entitys.TxoooSEMReport35.IdeaDayInfo.SyncTime">
             <summary>
             API同步时间
+            </summary>
+        </member>
+        <member name="T:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo">
+            <summary>
+            Mcc账户管家日报告 实体
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo.AgentId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo.AgentName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo.Cost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo.AccountCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo.CostCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo.ApiCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo.TingfengCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo.VDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportInfo">
+            <summary>
+            MCC账户管家 实体
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportInfo.AgentId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportInfo.AgentName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportInfo.Cost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportInfo.AccountCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportInfo.CostCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportInfo.ApiCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportInfo.TingfengCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OA.Core.Entitys.TxoooSEMReport35.MccAccountReportInfo.VDate">
+            <summary>
+            
             </summary>
         </member>
         <member name="T:OA.Core.Entitys.TxoooSEMReport35.PlanDayInfo">
@@ -9214,6 +9744,11 @@
             账户ＩＤ
             </summary>
         </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.AccountName">
+            <summary>
+            账户名
+            </summary>
+        </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.MediaId">
             <summary>
             账户分类  TxoooCRM2013.CRM_Class parent_id = 21446
@@ -9332,6 +9867,11 @@
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.IsDelete">
             <summary>
             是否删除 
+            </summary>
+        </member>
+        <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.ApiStatus">
+            <summary>
+            是否启用
             </summary>
         </member>
         <member name="P:OA.Core.QueryViewModels.TxoooSEM35.PlanParameters.EditEId">
@@ -10370,6 +10910,30 @@
             <param name="mapperAction"></param>
             <returns></returns>
         </member>
+        <member name="T:OA.Core.Repositorys.TxoooSEM35.PlanRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OA.Core.Repositorys.TxoooSEM35.PlanRepository.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{OA.Core.Repositorys.SugarDbContext},Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+            <param name="logger"></param>
+            <param name="memoryCache"></param>
+        </member>
+        <member name="M:OA.Core.Repositorys.TxoooSEM35.PlanRepository.GetListPlan(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.TxoooSEM35.PlanInfo,OA.Core.Entitys.TxoooSEM35.PlanApiInfo,OA.Core.Entitys.TxoooSEM35.AccountInfo,System.Boolean}},System.Linq.Expressions.Expression{System.Func{OA.Core.Entitys.TxoooSEM35.PlanInfo,OA.Core.Entitys.TxoooSEM35.PlanApiInfo,OA.Core.Entitys.TxoooSEM35.AccountInfo,System.Object}},System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="pageNo"></param>
+            <param name="pageSize"></param>
+            <param name="whereExpression"></param>
+            <param name="orderExpression"></param>
+            <param name="isAsc"></param>
+            <returns></returns>
+        </member>
         <member name="T:OA.Core.Repositorys.TxoooSEMLogRepositoryBase`1">
             <summary>
              Repository
@@ -11303,14 +11867,18 @@
             
             </summary>
         </member>
-        <member name="M:OA.Core.Services.TxoooSEM35.PlanService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Services.TxoooOfficeServiceBase{OA.Core.Entitys.TxoooOffice.ViewV4OAZDLEmployeeInfo},OA.Core.Repositorys.TxoooSEMLogRepositoryBase{OA.Core.Entitys.TxoooSEMLog.PlanLogInfo})">
+        <member name="M:OA.Core.Services.TxoooSEM35.PlanService.#ctor(OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.ViewOA5MJEPlanInfo},OA.Core.Services.TxoooCRM2013ServiceBase{OA.Core.Entitys.TxoooCRM2013.CRMClassInfo},OA.Core.Services.TxoooOfficeServiceBase{OA.Core.Entitys.TxoooOffice.ViewV4OAZDLEmployeeInfo},OA.Core.Repositorys.TxoooSEMLogRepositoryBase{OA.Core.Entitys.TxoooSEMLog.PlanLogInfo},OA.Core.Repositorys.TxoooSEM35.PlanRepository,OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.PlanApiInfo},OA.Core.Repositorys.TxoooSEM35RepositoryBase{OA.Core.Entitys.TxoooSEM35.PlanInfo},OA.Core.Repositorys.TxoooNExRepositoryBase{OA.Core.Entitys.TxoooNEx.ClassTagInfo})">
             <summary>
             
             </summary>
             <param name="repositoryBase"></param>
             <param name="txoooCRM2013ServiceBase"></param>
             <param name="txoooOfficeServiceBase"></param>
-            <param name="txoooSEMLogRepository"></param>       
+            <param name="txoooSEMLogRepository"></param>
+            <param name="planRepository"></param>
+            <param name="planApiRepositoryBase"></param>
+            <param name="planRepositoryBase"></param>
+            <param name="txoooNExServiceBase"></param>       
         </member>
         <member name="M:OA.Core.Services.TxoooSEM35.PlanService.GetPlanList(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>
@@ -11578,6 +12146,49 @@
             构造器
             </summary>
             <param name="repositoryBase"></param>
+        </member>
+        <member name="T:OA.Core.Services.TxoooSEMReport35.MccAccountReportDayService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEMReport35.MccAccountReportDayService.#ctor(OA.Core.Repositorys.TxoooSEMReport35RepositoryBase{OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo})">
+            <summary>
+            
+            </summary>
+            <param name="mccAccountReportDayBase"></param>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEMReport35.MccAccountReportDayService.GetMccAccountReportDay(OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters)">
+            <summary>
+            获得账户管家日报表信息
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEMReport35.MccAccountReportDayService.GetSumMccAccountReportDay(OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters)">
+            <summary>
+            获得账户管家日报表汇总信息
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OA.Core.Services.TxoooSEMReport35.MccAccountReportService">
+            <summary>
+            账户返利汇总
+            </summary>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEMReport35.MccAccountReportService.#ctor(OA.Core.Repositorys.TxoooSEMReport35RepositoryBase{OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo})">
+            <summary>
+            
+            </summary>
+            <param name="repositoryBase"></param>
+        </member>
+        <member name="M:OA.Core.Services.TxoooSEMReport35.MccAccountReportService.MccAccount(OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters)">
+            <summary>
+            Mcc
+            </summary>
+            <param name="where"></param>
+            <returns></returns>
         </member>
         <member name="T:OA.Core.Services.TxoooSEMServiceBase`1">
             <summary>

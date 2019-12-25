@@ -793,6 +793,46 @@
             <param name="parameters"></param>
             <returns></returns>
         </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.MccAccountReportController.#ctor(OA.Core.Services.TxoooSEMReport35.MccAccountReportService)">
+            <summary>
+            
+            </summary>
+            <param name="m_mccAccountReportService"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.MccAccountReportController.MccAccount(OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters)">
+            <summary>
+            Mcc账户
+            </summary>
+            <param name="accountDayParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.MccAccountReportController.MccAccountColunms">
+            <summary>
+            Mcc账户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.MccAccountReportDayController.#ctor(OA.Core.Services.TxoooSEMReport35ServiceBase{OA.Core.Entitys.TxoooSEMReport35.MccAccountReportDayInfo},OA.Core.Services.TxoooSEMReport35.MccAccountReportDayService)">
+            <summary>
+            
+            </summary>
+            <param name="repositoryBase"></param>
+            <param name="mccAccountReportDayBase"></param>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.MccAccountReportDayController.GetMccAccountReportDay(OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters)">
+            <summary>
+            获得账户管家日报表信息
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OA.WebApi.Controllers.v1.SummaryData.MccAccountReportDayController.GetSumMccAccountReportDay(OA.Core.QueryViewModels.TxoooSEMReport35.AccountDayParameters)">
+            <summary>
+            获得账户管家日报表汇总信息
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
         <member name="M:OA.WebApi.Controllers.v1.SummaryData.UnitDayReportController.#ctor(OA.Core.Services.TxoooSEMReport35ServiceBase{OA.Core.Entitys.TxoooSEMReport35.UnitDayInfo},OA.Core.Services.TxoooSEM35.UnitDayService)">
             <summary>
             
@@ -1004,49 +1044,49 @@
             <summary>
             批量编辑需求类型
             </summary>
-            <param name="param"></param>
+            <param name="parameters"></param>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanJzType(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>
             计划定向
             </summary>
-            <param name="param"></param>
+            <param name="parameters"></param>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanJzGrape(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>
             批量编辑人群层次
             </summary>
-            <param name="param"></param>
+            <param name="parameters"></param>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditJzArea(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>
             批量编辑推广地区
             </summary>
-            <param name="param"></param>
+            <param name="parameters"></param>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanShowUse(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>
             批量编辑计划用途
             </summary>
-            <param name="param"></param>
+            <param name="parameters"></param>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditNexId(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>
             批量编辑推广平台
             </summary>
-            <param name="param"></param>
+            <param name="parameters"></param>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditPlanShowTerminal(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
             <summary>
             批量编辑终端
             </summary>
-            <param name="param"></param>
+            <param name="parameters"></param>
             <returns></returns>
         </member>
         <member name="M:OA.WebApi.Controllers.v1.TxoooSEM35.SEMPlanNewController.EditBrandId(OA.Core.QueryViewModels.TxoooSEM35.PlanParameters)">
